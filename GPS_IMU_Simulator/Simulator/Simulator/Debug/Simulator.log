@@ -1,0 +1,42 @@
+﻿Build started 2/10/2013 5:03:39 PM.
+     1>Project "C:\FHWAC++\GPS_IMU_Simulator_v147\GPS_IMU_Simulator\Simulator\Simulator\Simulator.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib CProcessing.cpp
+         CProcessing.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FHWAC++\GPS_IMU_Simulator_v147\GPS_IMU_Simulator\Simulator\Debug\Simulator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\FHWAC++\GPS_IMU_Simulator_v147\GPS_IMU_Simulator\Simulator\Debug\Simulator.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\CAccVelCalc.obj
+         Debug\CDOPCalculation.obj
+         Debug\CEstimatedErrorCorrection.obj
+         Debug\CExportTrajectory.obj
+         Debug\CAngularRateCalc.obj
+         Debug\CConfig.obj
+         Debug\CConversion.obj
+         Debug\CErrorFreeAccelerometer.obj
+         Debug\CErrorFreeGyro.obj
+         Debug\CFileManager.obj
+         Debug\CGPSErrorGenerator.obj
+         Debug\CIMUErrorGenerator.obj
+         Debug\CIMUProcessing.obj
+         Debug\CKalmanFilter.obj
+         Debug\CObservationModel.obj
+         Debug\CStateModel.obj
+         Debug\CMatrix.obj
+         Debug\COrientationCalc.obj
+         Debug\CPosVelCalc.obj
+         Debug\CPreProcessing.obj
+         Debug\CProcessing.obj
+         Debug\CExportGPSFile.obj
+         Debug\CExportIMUFile.obj
+         Debug\CExportKFParam.obj
+         Debug\CReadTrajectory.obj
+         Debug\CDisplayMatrixElements.obj
+         Debug\CVelAccCalc.obj
+         Debug\CVelPosCalc.obj
+         Debug\Simulator.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Simulator.vcxproj -> C:\FHWAC++\GPS_IMU_Simulator_v147\GPS_IMU_Simulator\Simulator\Debug\Simulator.exe
+     1>Done Building Project "C:\FHWAC++\GPS_IMU_Simulator_v147\GPS_IMU_Simulator\Simulator\Simulator\Simulator.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42

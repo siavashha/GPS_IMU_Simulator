@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D8DA056-968D-49C5-A220-33D0C51EDD40}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Simulator</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAccVelCalc.cpp" />
+    <ClCompile Include="CDOPCalculation.cpp" />
+    <ClCompile Include="CEstimatedErrorCorrection.cpp" />
+    <ClCompile Include="CExportTrajectory.cpp" />
+    <ClCompile Include="CAngularRateCalc.cpp" />
+    <ClCompile Include="CConfig.cpp" />
+    <ClCompile Include="CConversion.cpp" />
+    <ClCompile Include="CErrorFreeAccelerometer.cpp" />
+    <ClCompile Include="CErrorFreeGyro.cpp" />
+    <ClCompile Include="CFileManager.cpp" />
+    <ClCompile Include="CGPSErrorGenerator.cpp" />
+    <ClCompile Include="CIMUErrorGenerator.cpp" />
+    <ClCompile Include="CIMUProcessing.cpp" />
+    <ClCompile Include="CKalmanFilter.cpp" />
+    <ClCompile Include="CObservationModel.cpp" />
+    <ClCompile Include="CStateModel.cpp" />
+    <ClCompile Include="CMatrix.cpp" />
+    <ClCompile Include="COrientationCalc.cpp" />
+    <ClCompile Include="CPosVelCalc.cpp" />
+    <ClCompile Include="CPreProcessing.cpp" />
+    <ClCompile Include="CProcessing.cpp" />
+    <ClCompile Include="CExportGPSFile.cpp" />
+    <ClCompile Include="CExportIMUFile.cpp" />
+    <ClCompile Include="CExportKFParam.cpp" />
+    <ClCompile Include="CReadTrajectory.cpp" />
+    <ClCompile Include="CDisplayMatrixElements.cpp" />
+    <ClCompile Include="CVelAccCalc.cpp" />
+    <ClCompile Include="CVelPosCalc.cpp" />
+    <ClCompile Include="Simulator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAccVelCalc.h" />
+    <ClInclude Include="CDOPCalculation.h" />
+    <ClInclude Include="CEstimatedErrorCorrection.h" />
+    <ClInclude Include="CExportTrajectory.h" />
+    <ClInclude Include="CAngularRateCalc.h" />
+    <ClInclude Include="CConfig.h" />
+    <ClInclude Include="CConversion.h" />
+    <ClInclude Include="CErrorFreeAccelerometer.h" />
+    <ClInclude Include="CErrorFreeGyro.h" />
+    <ClInclude Include="CFileManager.h" />
+    <ClInclude Include="CGPSErrorGenerator.h" />
+    <ClInclude Include="CIMUErrorGenerator.h" />
+    <ClInclude Include="CIMUProcessing.h" />
+    <ClInclude Include="CKalmanFilter.h" />
+    <ClInclude Include="CObservationModel.h" />
+    <ClInclude Include="CStateModel.h" />
+    <ClInclude Include="CMatrix.h" />
+    <ClInclude Include="COrientationCalc.h" />
+    <ClInclude Include="CPosVelCalc.h" />
+    <ClInclude Include="CPreProcessing.h" />
+    <ClInclude Include="CProcessing.h" />
+    <ClInclude Include="CExportGPSFile.h" />
+    <ClInclude Include="CExportIMUFile.h" />
+    <ClInclude Include="CExportKFParam.h" />
+    <ClInclude Include="CReadTrajectory.h" />
+    <ClInclude Include="CDisplayMatrixElements.h" />
+    <ClInclude Include="CVelAccCalc.h" />
+    <ClInclude Include="CVelPosCalc.h" />
+    <ClInclude Include="SInitParam.h" />
+    <ClInclude Include="STrajData.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FileManagement">
+      <UniqueIdentifier>{4b992205-eddb-4a83-883c-1b7d243e4f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagement">
+      <UniqueIdentifier>{be2eed21-b1e6-4bde-8502-528c15aff3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Preprocess">
+      <UniqueIdentifier>{0bb2c459-63b4-4172-9ba4-178b41ed0b53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Preprocess">
+      <UniqueIdentifier>{d378b1db-96fc-4623-b683-8526c4c3dca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matrix Algebra">
+      <UniqueIdentifier>{d3db827e-706d-47ee-904e-325b4430b2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrix Algebra">
+      <UniqueIdentifier>{906d2d6e-45ab-4377-bdc9-ce43b4b995a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Conversions">
+      <UniqueIdentifier>{7debc109-0f95-4e3b-a720-cdf406c37537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process">
+      <UniqueIdentifier>{bdee7339-bd08-408d-9b60-8c1f47541973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Process">
+      <UniqueIdentifier>{f501f15d-16dd-44a7-800d-b9392dc6f50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExportFiles">
+      <UniqueIdentifier>{a1402329-b8c5-41de-944f-e07e7c279417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExportFiles">
+      <UniqueIdentifier>{225128e6-a6b6-49b9-9896-1bd9d90473ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImportFiles">
+      <UniqueIdentifier>{5e4557aa-3f5f-4033-aafc-c38e255fc590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImportFiles">
+      <UniqueIdentifier>{06a45ede-79ee-413a-a6d8-e48bb5a6bcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accelerometer/Gyro">
+      <UniqueIdentifier>{16f0a155-eb5c-4883-8b6b-0b81129adbc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accelerometer/Gyro">
+      <UniqueIdentifier>{e95fd0fb-fefc-42f5-9688-afbfb012bd77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Conversions">
+      <UniqueIdentifier>{829604a1-948a-4253-9043-08b79eb5e2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IMUProcessing">
+      <UniqueIdentifier>{fa6b751f-88dd-4aef-8254-1985ff65a7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IMUProcessing">
+      <UniqueIdentifier>{273fe2cd-3c77-474a-a155-91d7db56b27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GPS">
+      <UniqueIdentifier>{4f59df99-2c0e-4dce-b4e1-65738105a1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GPS">
+      <UniqueIdentifier>{9fd2f2c6-102a-439f-a5cf-5f49ff4b92e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PostProcessing">
+      <UniqueIdentifier>{61b295f7-74d6-4a13-aa38-5c8f854b65c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PostProcessing">
+      <UniqueIdentifier>{49dad9fe-2fcf-48b1-89c8-acec2ba6773e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kalman Filter">
+      <UniqueIdentifier>{3d25be78-5296-4798-bf8a-501006bcf271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kalman Filter">
+      <UniqueIdentifier>{0702dbeb-0493-431a-b57e-a5d00dc22b58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileManager.cpp">
+      <Filter>Source Files\FileManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfig.cpp">
+      <Filter>Source Files\Preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrix.cpp">
+      <Filter>Source Files\Matrix Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="CPreProcessing.cpp">
+      <Filter>Source Files\Preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessing.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportKFParam.cpp">
+      <Filter>Source Files\ExportFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportGPSFile.cpp">
+      <Filter>Source Files\ExportFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportIMUFile.cpp">
+      <Filter>Source Files\ExportFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CReadTrajectory.cpp">
+      <Filter>Source Files\ImportFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CDisplayMatrixElements.cpp">
+      <Filter>Source Files\Matrix Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="CVelAccCalc.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosVelCalc.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="COrientationCalc.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CAngularRateCalc.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrorFreeAccelerometer.cpp">
+      <Filter>Source Files\Accelerometer/Gyro</Filter>
+    </ClCompile>
+    <ClCompile Include="CErrorFreeGyro.cpp">
+      <Filter>Source Files\Accelerometer/Gyro</Filter>
+    </ClCompile>
+    <ClCompile Include="CConversion.cpp">
+      <Filter>Source Files\Conversions</Filter>
+    </ClCompile>
+    <ClCompile Include="CIMUProcessing.cpp">
+      <Filter>Source Files\IMUProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="CIMUErrorGenerator.cpp">
+      <Filter>Source Files\Accelerometer/Gyro</Filter>
+    </ClCompile>
+    <ClCompile Include="CGPSErrorGenerator.cpp">
+      <Filter>Source Files\GPS</Filter>
+    </ClCompile>
+    <ClCompile Include="CExportTrajectory.cpp">
+      <Filter>Source Files\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateModel.cpp">
+      <Filter>Source Files\Kalman Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CObservationModel.cpp">
+      <Filter>Source Files\Kalman Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CKalmanFilter.cpp">
+      <Filter>Source Files\Kalman Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CEstimatedErrorCorrection.cpp">
+      <Filter>Source Files\Kalman Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="CAccVelCalc.cpp">
+      <Filter>Source Files\IMUProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="CVelPosCalc.cpp">
+      <Filter>Source Files\IMUProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="CDOPCalculation.cpp">
+      <Filter>Source Files\GPS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFileManager.h">
+      <Filter>Header Files\FileManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfig.h">
+      <Filter>Header Files\Preprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrix.h">
+      <Filter>Header Files\Matrix Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="CPreProcessing.h">
+      <Filter>Header Files\Preprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="CConversion.h">
+      <Filter>Header Files\Conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessing.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportGPSFile.h">
+      <Filter>Header Files\ExportFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportIMUFile.h">
+      <Filter>Header Files\ExportFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportKFParam.h">
+      <Filter>Header Files\ExportFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CReadTrajectory.h">
+      <Filter>Header Files\ImportFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="STrajData.h">
+      <Filter>Header Files\ImportFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CDisplayMatrixElements.h">
+      <Filter>Header Files\Matrix Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosVelCalc.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CVelAccCalc.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CAngularRateCalc.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="COrientationCalc.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrorFreeAccelerometer.h">
+      <Filter>Header Files\Accelerometer/Gyro</Filter>
+    </ClInclude>
+    <ClInclude Include="CErrorFreeGyro.h">
+      <Filter>Header Files\Accelerometer/Gyro</Filter>
+    </ClInclude>
+    <ClInclude Include="SInitParam.h">
+      <Filter>Header Files\Preprocess</Filter>
+    </ClInclude>
+    <ClInclude Include="CIMUProcessing.h">
+      <Filter>Header Files\IMUProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CIMUErrorGenerator.h">
+      <Filter>Header Files\Accelerometer/Gyro</Filter>
+    </ClInclude>
+    <ClInclude Include="CGPSErrorGenerator.h">
+      <Filter>Header Files\GPS</Filter>
+    </ClInclude>
+    <ClInclude Include="CExportTrajectory.h">
+      <Filter>Header Files\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateModel.h">
+      <Filter>Header Files\Kalman Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CObservationModel.h">
+      <Filter>Header Files\Kalman Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CKalmanFilter.h">
+      <Filter>Header Files\Kalman Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CEstimatedErrorCorrection.h">
+      <Filter>Header Files\Kalman Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="CAccVelCalc.h">
+      <Filter>Header Files\IMUProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CVelPosCalc.h">
+      <Filter>Header Files\IMUProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="CDOPCalculation.h">
+      <Filter>Header Files\GPS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+IMU grade
+0
+GPS technique
+0
+Cutoff Angle
+15
+IMU sampling rate with respect to GPS
+10
+Network Rotation Angle
+0
+VISSIM local coordinates:
+X     ,Y     (clockwise from WN point)
+-600, 6000
+8100, 6000
+8100, -500
+-600, -500
+Latitude (N), Longitude (E)
+38.94711410900619, -77.26568965747987
+38.94711410900619, -77.18921451404725
+38.901707672268785, -77.18921451404725
+38.901707672268785, -77.26568965747987
+
